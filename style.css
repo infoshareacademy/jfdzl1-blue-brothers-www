@@ -1,11 +1,14 @@
 *{
-    background-color: black;
+    background-color: cornflowerblue;
     color: white;
 }
 
 header{
     font-family: 'Sedgwick Ave Display', cursive;
     text-align: center;
-
-
+    margin: auto;
+    padding: 15px;
+    width:1000px;
+    border: solid 5px blue;
+    border-radius: 25%;
 }
