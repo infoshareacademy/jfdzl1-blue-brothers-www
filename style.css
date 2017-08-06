@@ -3,7 +3,8 @@
     float: left;
     width: 200px;
     height: 100px;
-    .footer {
-        background-color: cornflowerblue;
-    }
+}
+
+footer {
+    background-color: cornflowerblue;
 }
