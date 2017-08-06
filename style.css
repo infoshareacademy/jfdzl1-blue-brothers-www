@@ -2,10 +2,16 @@
     background-color: black;
     color: white;
 }
+.inline {
+    display: inline-block;
+}
 
 header{
     font-family: 'Sedgwick Ave Display', cursive;
     text-align: center;
 
 
+}
+footer {
+    background-color: cornflowerblue;
 }
