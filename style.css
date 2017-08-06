@@ -1,8 +1,5 @@
-.aside {
-    background-color: lightblue;
-    float: left;
-    width: 200px;
-    height: 100px;
+.inline {
+    display: inline-block;
 }
 
 footer {
