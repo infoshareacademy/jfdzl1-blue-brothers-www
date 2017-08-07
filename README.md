@@ -1,4 +1,4 @@
-# JFDZL1 - Repozytorium zespołu Blue Brothers
+# JFDZL1 - Blue Brothers
 
 ## Description
 TBD
