@@ -8,4 +8,4 @@ TBD
 * Production branch: `master`
 
 ## Demo
-Built from master: [click here](http://blue-brothers.jfdzl1.is-academy.pl)
+Built from develop: [click here](http://blue-brothers.jfdzl1.is-academy.pl)
