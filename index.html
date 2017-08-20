@@ -9,12 +9,11 @@
 
 <body>
 
-<div id="wrapper">
-
+<div id="wrapper col-12">
 
     <header>
-        <img src="./images/logo.svg" alt="logo"/>
-        <h1>WEB project by Blue-Brothers Team</h1>
+        <div class="logo col-2"><img src="./images/logo.svg" alt="logo"/></div>
+        <div class="team name col-8"><h1>WEB project by Blue-Brothers Team</h1></div>
     </header>
 </div>
 
@@ -22,70 +21,56 @@
 <nav>
     <section id="menu">
 
-        <div class="option">Home</div>
-        <div class="option">News</div>
-        <div class="option">Articles</div>
-        <div class="option">Archives</div>
-        <div class="option">Contact</div>
-        <div class="option">About team</div>
+        <div class="option col-2">Home</div>
+        <div class="option col-2">News</div>
+        <div class="option col-2">Articles</div>
+        <div class="option col-2">Archives</div>
+        <div class="option col-2">Contact</div>
+        <div class="option col-2">About team</div>
 
     </section>
 </nav>
 
-<section id="slider">
-    <img src="./images/slider/" alt="slider images"/>
-</section>
+<main class="col-8">
+    <section id="slider">
+        <img src="./images/slider/" alt="slider images"/>
+    </section>
 
-<h2> Section news </h2>
-<img src="./images/sections_news_image.png" alt="image news"/>
+    <h2> Section news </h2>
+    <img src="./images/sections_news_image.png" alt="image news"/>
 
-<section id="news">
-    <p>
-        Section with news
-        <img src="./images/news/news_min.png" alt="miniature image news"/>
-    </p>
-</section>
+    <section id="news">
+        <p>
+            Section with news
+            <img src="./images/news/news_min.png" alt="miniature image news"/>
+        </p>
+    </section>
 
-<section id="articles-1">
-    <p>
-        Section with articles
-        <img src="./images/news/article_1_min.png" alt="miniature image article-1"/>
-    </p>
-</section>
+    <section id="articles-1">
+        <p>
+            Section with articles
+            <img src="./images/news/article_1_min.png" alt="miniature image article-1"/>
+        </p>
+    </section>
 
-<section id="articles-2">
-    <p>
-        Section with articles
-        <img src="./images/news/article_1_min.png" alt="miniature image article-2"/>
-    </p>
+    <section id="articles-2">
+        <p>
+            Section with articles
+            <img src="./images/news/article_1_min.png" alt="miniature image article-2"/>
+        </p>
 
-</section>
-
+    </section>
+</main>
+<div class="right box_1 col-4">
+    reklama :-)
+</div>
 <div id="widget">
     <script>
     </script>
-
 </div>
 
-<div id="contact">
-    <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
-        <input type="hidden" name="reply-to" value="wojciech.paluch@o2.pl">
-
-        <label> Your name:</label> <input type="text" name="name">
-        <label> Your e-mail:</label><input type="text" name="email">
-        <label> Message: </label>
-        <textarea name="message">Proszę wpisać tekst wiadomości</textarea>
-        <input type="submit" value="Wyślij wiadomość">
-    </form>
-</div>
-
-
-<header>
-
-
-</header>
 <!--About team section-->
-<section id="about_us">
+<section id="about_us" col-8>
 
     <div class="container_team">
         <div>
@@ -112,6 +97,17 @@
                  alt="Łukasz"/>
         </div>
 </section>
+<div id="contact col-4">
+    <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+        <input type="hidden" name="reply-to" value="wojciech.paluch@o2.pl">
+
+        <label> Your name:</label> <input type="text" name="name">
+        <label> Your e-mail:</label><input type="text" name="email">
+        <label> Message: </label>
+        <textarea name="message">Proszę wpisać tekst wiadomości</textarea>
+        <input type="submit" value="Wyślij wiadomość">
+    </form>
+</div>
 <aside>
     <div class="">F</div>
     <div class="">G+</div>
