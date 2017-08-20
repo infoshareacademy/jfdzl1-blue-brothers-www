@@ -4,9 +4,25 @@
 }
 
 header{
-    font-family: 'Sedgwick Ave Display', cursive;
+    display:flex;
+    justify-content: space-around;
     text-align: center;
+}
 
+
+#menu{
+    display:flex;
+    justify-content: space-around;
+}
+
+.option
+{
+    width: 100px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px dotted ;
+    margin:auto;
 
 }
 
