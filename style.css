@@ -14,17 +14,6 @@ header{
     display:flex;
     justify-content: space-around;
 }
-<<<<<<< HEAD
-
-.option
-{
-    width: 100px;
-    height: 25px;
-    font-size: 18px;
-    padding: 10px;
-    border: 2px dotted ;
-    margin:auto;
-=======
 
 .option
 {
@@ -84,8 +73,6 @@ input[type="text"] {
     box-shadow: darkblue;
     border-color: black;
     border-width: 2px;
->>>>>>> 3637d413a218c89969d09ab81020f56f6b5aa5cc
-
 }
 
 #contact {
