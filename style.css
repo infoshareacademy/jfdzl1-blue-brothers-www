@@ -7,6 +7,7 @@ header{
     display:flex;
     justify-content: space-around;
     text-align: center;
+    background-color: blueviolet;
 }
 
 
@@ -122,6 +123,15 @@ input[type="text"] {
     box-shadow: darkblue;
     border-color: black;
     border-width: 2px;
+
+}
+
+.aside{
+    background-color: blueviolet;
+    color:brown;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
 
 }
 
