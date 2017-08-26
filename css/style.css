@@ -4,24 +4,18 @@
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
     text-align: center;
     background-color: blueviolet;
 }
+nav{
+    background-color: blueviolet;
 
-#menu {
-    display: flex;
-    justify-content: space-around;
 }
-
 .option {
-    width: 100px;
-    height: 25px;
+
     font-size: 18px;
-    padding: 10px;
     border: 2px dotted;
-    margin: auto;
+    background-color: blueviolet;
 
 }
 
@@ -130,7 +124,8 @@ aside {
     display: flex;
     justify-content: center;
 }
-.social{
+
+.social {
     display: flex;
     justify-content: space-around;
     background-color: blueviolet;
