@@ -128,12 +128,18 @@ aside {
     background-color: blueviolet;
     width: 100%;
     display: flex;
+    justify-content: center;
+}
+.social{
+    display: flex;
     justify-content: space-around;
+    background-color: blueviolet;
 }
 
 .icon-facebook, .icon-gplus, .icon-twitter, .icon-instagram-1, .icon-youtube {
     background-color: blueviolet;
-
+    display: flex;
+    justify-content: center;
 }
 
 .icon-facebook:hover {
