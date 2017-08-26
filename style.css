@@ -7,6 +7,7 @@ header{
     display:flex;
     justify-content: space-around;
     text-align: center;
+    background-color: blueviolet;
 }
 
 
@@ -124,6 +125,29 @@ input[type="text"] {
     border-width: 2px;
 
 }
+
+aside{
+    background-color: blueviolet;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fb, .gp, .tw, .in, .yt{
+   background-color: blueviolet;
+}
+.fb:hover{
+    background-color: #4668b3;
+}
+
+.icon-facebook, .icon-gplus, .icon-twitter, .icon-instagram-1, .icon-youtube{
+    background-color: blueviolet;
+}
+
+.icon-facebook:hover{
+    background-color: #4668b3;
+}
+
 
 
 [class *= "col-"] {
