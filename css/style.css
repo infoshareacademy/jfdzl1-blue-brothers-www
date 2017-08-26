@@ -1,11 +1,12 @@
 * {
-    background-color: black;
+    background-color: blueviolet;
     color: white;
 }
 
 header {
     text-align: center;
     background-color: blueviolet;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 nav{
     background-color: blueviolet;
@@ -14,9 +15,14 @@ nav{
 .option {
 
     font-size: 18px;
-    border: 2px dotted;
+    border-left: 1px dotted;
     background-color: blueviolet;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
 
+}
+.option:hover{
+    background-color: violet;
 }
 
 #contact {
