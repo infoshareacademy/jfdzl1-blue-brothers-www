@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Project Blue-Brothers</title>
-    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <link rel="Shortcut icon" href="favicon.ico"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,27 +16,36 @@
 <div id="wrapper">
 
 
-    <header>
-        <img src="./images/logo.svg" alt="logo"/>
-        <h1>WEB project by Blue-Brothers Team</h1>
+    <header class="row">
+        <div class="col-xs-12 col-md-4">
+            <img src="./images/logo.svg" alt="logo"/>
+        </div>
+        <div class="col-xs-12 col-md-8">
+            <h1>WEB project by Blue-Brothers Team</h1>
+        </div>
     </header>
 </div>
 
 
-<nav>
-    <section id="menu">
+<nav class="row">
+    <div class="col-xs-12 col-md-12">
+        <section id="menu">
 
-        <div class="option">Home</div>
-        <div class="option">News</div>
-        <div class="option">Articles</div>
-        <div class="option">Archives</div>
-        <div class="option">Contact</div>
-        <div class="option">About team</div>
+            <div class="option">Home</div>
+            <div class="option">News</div>
+            <div class="option">Articles</div>
+            <div class="option">Archives</div>
+            <div class="option">Contact</div>
+            <div class="option">About team</div>
 
-    </section>
+        </section>
+    </div>
 </nav>
 
-<div class="col-6">
+<section id="slider">
+    <img src="./images/slider/" alt="slider images"/>
+</section>
+
 <h2> Section news </h2>
 <img src="./images/news-1.jpeg" alt="image news"/>
 
@@ -146,6 +156,26 @@
 
 </div>
 
+        <div class="name">
+            <img src="./images/team/wojtek.jpg"
+                 alt="Wojtek"/>
+        </div>
+
+        <div class="name">
+            <img src="./images/team/lukasz.jpg"
+                 alt="Łukasz"/>
+        </div>
+</section>
+<footer>
+    <section id="footer image">
+        <img src="./images/footer_image.png" alt="footer image">
+    </section>
+    &copy; Blue Brothers Team
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 <aside class="col-12">
 
     <div class="fb">
