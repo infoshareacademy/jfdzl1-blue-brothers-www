@@ -1,7 +1,7 @@
 # JFDZL1 - Blue Brothers
 
 ## Description
-TBD
+TBD :)
 
 ## Info
 * Development branch: `development`
