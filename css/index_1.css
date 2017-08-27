@@ -18,3 +18,8 @@
 .navbar-default {
     background-color: #963131;
 }
+
+.header-wrapper {
+    background-image: url("../images/background.jpg");
+    background-size: contain;
+}
