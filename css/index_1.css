@@ -18,3 +18,7 @@
 .navbar-default {
     background-color: #963131;
 }
+.social {
+    display: flex;
+    justify-content: space-around;
+}

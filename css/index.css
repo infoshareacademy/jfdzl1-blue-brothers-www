@@ -31,3 +31,7 @@ h3 {
 .container_2 {
     background-color: #5bc0de;
 }
+social{
+    display: flex;
+    justify-content: center;
+}
