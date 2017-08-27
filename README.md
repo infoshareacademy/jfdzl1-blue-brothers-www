@@ -1,5 +1,11 @@
-# JFDZL1 - Repozytorium zespołu Blue Brothers
+# JFDZL1 - Blue Brothers
 
+## Description
 TBD
 
-Demo: [click here](http://blue-brothers.jfdzl1.is-academy.pl)
+## Info
+* Development branch: `development`
+* Production branch: `master`
+
+## Demo
+Built from develop: [click here](http://blue-brothers.jfdzl1.is-academy.pl)
