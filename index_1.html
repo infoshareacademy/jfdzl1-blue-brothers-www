@@ -44,19 +44,19 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
+                <li class="active"><a href="#">Strona glowna <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Newsy</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">Dropdown <span class="caret"></span></a>
+                       aria-expanded="false">Opcje <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Ciekawostki</a></li>
+                        <li><a href="#">Archiwum</a></li>
+                        <li><a href="#">Formularz kontaktowy</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">O zespole</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
+                        <li><a href="#">O projekcie</a></li>
                     </ul>
                 </li>
             </ul>
@@ -90,7 +90,11 @@
 
             <section id="articles-1">
                 <h1> Section with articles</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     <img src="./images/slider/slider-image-1.jpeg" alt="miniature image article-1"/>
 
             </section>
@@ -105,9 +109,87 @@
         </div>
     </div>
 </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-3 col-lg-3">
+            <div class="thumbnail">
+                <img src="http://infoshareacademy.com/images/logo.svg" alt="image"
+                     class="img-responsive img-rounded">
+                <div class="caption">
+                    <p>Anita</p>
+                </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="col-xs-3 col-lg-3">
+            <div class="thumbnail">
+                <img src="http://infoshareacademy.com/images/logo.svg" alt="image"
+                     class="img-responsive img-rounded">
+                <div class="caption">
+                    <p>Bartek</p>
+                </div>
+                </a>
+            </div>
+
+
+        </div>
+        <div class="col-xs-3 col-lg-3">
+            <div class="thumbnail">
+                <img src="http://infoshareacademy.com/images/logo.svg" alt="image"
+                     class="img-responsive img-rounded">
+                <div class="caption">
+
+                    <p>Wojtek</p>
+
+
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-3 col-lg-3">
+            <div class="thumbnail">
+                <img src="http://infoshareacademy.com/images/logo.svg" alt="image"
+                     class="img-responsive img-rounded">
+                <div class="caption">
+
+                    <p>Łukasz</p>
+
+                </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-lg-12">
+            <h3>Formularz kontaktowy</h3>
+            <form method="POST" action="http://api.jfdzl1.is-academy.pl/emailer.php">
+                <input type="hidden" name="reply-to" value="@o2.pl">
+
+                <div class="form-group">
+                    <label for="exampleInputName2">Wpisz swoje imię</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Imię">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Wpisz e-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Wpisz tekst wiadomości"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-default">Wyślij</button>
+            </form>
+        </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
