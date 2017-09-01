@@ -24,6 +24,13 @@
     background-size: contain;
 }
 
+.foto{
+    width:150px;
+}
+.caption{
+    text-align: center;
+}
+
 .social {
     display: flex;
     justify-content: space-around;
