@@ -23,3 +23,37 @@
     background-image: url("../images/background.jpg");
     background-size: contain;
 }
+
+.foto{
+    width:150px;
+}
+.caption{
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    background-color:  #963131;;
+}
+
+
+.icon-facebook:hover {
+    background-color: #4668b3;
+}
+
+.icon-gplus:hover {
+    background-color: #DD4B3E;
+}
+
+.icon-twitter:hover {
+    background-color: #139FF2;
+}
+
+.icon-instagram-1:hover {
+    background-color: #D02E91;
+}
+
+.icon-youtube:hover {
+    background-color: #E62117;
+}
