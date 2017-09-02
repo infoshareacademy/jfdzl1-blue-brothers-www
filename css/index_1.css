@@ -24,6 +24,7 @@
     background-size: contain;
 }
 
+
 .icons{
     font-size: 60px;
     display: flex;
@@ -120,9 +121,17 @@
 
 .thumbnail h5 {
     font-size: 1.2em;
-    color: #048acc;
+    color: #d8d8d8;
     font-style: italic;
     font-weight: 400;
     margin: 7px;
     height: 35px;
+}
+
+.carousel-inner h3 {
+    color: black;
+}
+
+.carousel-inner p {
+    color: black;
 }
