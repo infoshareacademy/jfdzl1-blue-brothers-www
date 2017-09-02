@@ -16,7 +16,7 @@
 }
 
 .navbar-default {
-    background-color: #963131;
+    background-color: #0067ff;
 }
 
 .header-wrapper {
@@ -34,7 +34,7 @@
 .social {
     display: flex;
     justify-content: space-around;
-    background-color:  #963131;;
+    background-color:  #0067ff;
 }
 
 
