@@ -57,3 +57,8 @@
 .icon-youtube:hover {
     background-color: #E62117;
 }
+
+.header-wrapper h1 {
+    color: black;
+    text-shadow: 2px 2px white;
+}
