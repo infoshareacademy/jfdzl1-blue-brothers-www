@@ -55,8 +55,8 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-facebook:before { content: '\f09a'; } /* '' */
-.icon-youtube:before { content: '\f167'; } /* '' */
-.icon-instagram-1:before { content: '\f16d'; } /* '' */
-.icon-gplus:before { content: '\f30f'; } /* '' */
+.icon-twitter:before { content: '\f099'; color: white; font-size: 40px;} /* '' */
+.icon-facebook:before { content: '\f09a'; color: white; font-size: 40px;; } /* '' */
+.icon-youtube:before { content: '\f167'; color: white; font-size: 40px; } /* '' */
+.icon-instagram-1:before { content: '\f16d'; color: white; font-size: 40px;} /* '' */
+.icon-gplus:before { content: '\f30f'; color: white; font-size: 40px;} /* '' */
