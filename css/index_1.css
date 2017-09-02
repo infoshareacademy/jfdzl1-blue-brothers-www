@@ -28,7 +28,14 @@
     font-size: 60px;
     display: flex;
     align-items: center;
+}
 
+.menu{
+    background-color: #0067ff;
+}
+
+.map{
+    background-color: #0067ff;
 }
 
 .foto{
