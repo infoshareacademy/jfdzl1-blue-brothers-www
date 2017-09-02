@@ -55,12 +55,12 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-glass:before { content: '\e800'; color: white; font-size: 40px;} /* '' */
-.icon-beer:before { content: '\e801'; color: white; font-size: 40px;} /* '' */
-.icon-fast-food:before { content: '\e815'; color: white; font-size: 40px;} /* '' */
-.icon-monument:before { content: '\e827'; color: white; font-size: 40px;} /* '' */
-.icon-restaurant:before { content: '\e832'; color: white; font-size: 40px;} /* '' */
-.icon-building:before { content: '\f0f7'; color: white; font-size: 40px;} /* '' */
+.icon-glass:before { content: '\e800'; color: #0067ff; font-size: 40px;} /* '' */
+.icon-beer:before { content: '\e801'; color: #0067ff; font-size: 40px;} /* '' */
+.icon-fast-food:before { content: '\e815'; color: #0067ff; font-size: 40px;} /* '' */
+.icon-monument:before { content: '\e827'; color: #0067ff; font-size: 40px;} /* '' */
+.icon-restaurant:before { content: '\e832'; color:#0067ff; font-size: 40px;} /* '' */
+.icon-building:before { content: '\f0f7'; color: #0067ff; font-size: 40px;} /* '' */
 .icon-twitter:before { content: '\f099'; color: white; font-size: 40px;} /* '' */
 .icon-facebook:before { content: '\f09a'; color: white; font-size: 40px;; } /* '' */
 .icon-youtube:before { content: '\f167'; color: white; font-size: 40px; } /* '' */

@@ -176,3 +176,13 @@ img {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+
+<div class=" menu col-xs-2 col-md-2 col-lg-2">
+
+<div class="icon-glass"></div>
+<div class="icon-beer"></div>
+<div class="icon-fast-food"></div>
+<div class="icon-restaurant"></div>
+                  <div class="icon-monument"></div>
+              </div>
