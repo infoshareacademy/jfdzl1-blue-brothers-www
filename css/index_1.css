@@ -62,3 +62,7 @@
     color: black;
     text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
 }
+
+#form {
+    padding-bottom: 2em;
+}
