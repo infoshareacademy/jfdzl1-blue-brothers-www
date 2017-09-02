@@ -171,4 +171,8 @@ img {
 #contact {
     float: right;
 }
-
+. footer_style {
+    background-color: darkblue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
