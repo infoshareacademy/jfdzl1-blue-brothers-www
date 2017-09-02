@@ -176,3 +176,12 @@ img {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.thumbnail h5 {
+    font-size: 1.2em;
+    color: #d8d8d8;
+    font-style: italic;
+    font-weight: 400;
+    margin: 7px;
+    height: 35px;
+}
