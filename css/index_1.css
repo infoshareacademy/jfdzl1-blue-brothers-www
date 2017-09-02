@@ -32,10 +32,20 @@
 
 .menu{
     background-color: #0067ff;
+    height:690px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+
 }
 
 .map{
     background-color: #0067ff;
+    height:690px;
+
+
 }
 
 .foto{
