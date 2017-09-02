@@ -35,6 +35,42 @@
       "css": "gplus",
       "code": 62223,
       "src": "entypo"
+    },
+    {
+      "uid": "5cc58545bb38c912940470480d3df145",
+      "css": "restaurant",
+      "code": 59442,
+      "src": "maki"
+    },
+    {
+      "uid": "cfaa8fbbdcc7bb8d636cb974aad1f9b9",
+      "css": "glass",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "3d1e04316a48ace4e2b81be58343a41c",
+      "css": "building",
+      "code": 61687,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d27bcf5c8638e4078aaadae1d49b6909",
+      "css": "fast-food",
+      "code": 59413,
+      "src": "maki"
+    },
+    {
+      "uid": "c2e02247804b8372740de0b76311f1ad",
+      "css": "beer",
+      "code": 59393,
+      "src": "typicons"
+    },
+    {
+      "uid": "19d9ceb791d76257545e308954808fc1",
+      "css": "monument",
+      "code": 59431,
+      "src": "maki"
     }
   ]
 }
