@@ -24,6 +24,13 @@
     background-size: contain;
 }
 
+.icons{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
 .foto{
     width:150px;
 }
