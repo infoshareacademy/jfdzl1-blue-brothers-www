@@ -94,13 +94,12 @@
 }
 .footer_style {
     background-color: #0067ff;
-    text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
-    height: 125px;
+    height: 100px;
     color: white;
     line-height: 50px;
-    }
+}
 
 .team_bar {
     text-align: center;
