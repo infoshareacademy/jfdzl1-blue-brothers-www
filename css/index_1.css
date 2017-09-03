@@ -30,7 +30,6 @@
     display: flex;
     align-items: center;
 }
-
 .menu{
     background-color: #0067ff;
     height:690px;
@@ -39,15 +38,11 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-
-
 }
 
 .map{
     background-color: #0067ff;
     height:690px;
-
-
 }
 
 .foto{
@@ -93,6 +88,7 @@
     padding-bottom: 2em;
 }
 .footer_style {
+    text-align: center;
     background-color: #0067ff;
     margin-top: 25px;
     margin-bottom: 25px;

@@ -27,6 +27,21 @@ h6 {
 
 section {
     padding: 100px 0; }
+
+.menu{
+    background-color: red;
+    height:690px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.map{
+    background-color: #0067ff;
+    height:690px;
+}
 section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
