@@ -24,6 +24,32 @@
     background-size: contain;
 }
 
+
+.icons{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    background-color: #0067ff;
+    height:690px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+
+.map{
+    background-color: #0067ff;
+    height:690px;
+
+
+}
+
 .foto{
     width:150px;
 }
@@ -65,4 +91,49 @@
 
 #form {
     padding-bottom: 2em;
+}
+.footer_style {
+    background-color: #0067ff;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 125px;
+    color: white;
+    line-height: 50px;
+    }
+
+.team_bar {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.team_bar h3 {
+    font-size: 2.7em;
+    color: #000000;
+}
+
+.thumbnail h4 {
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #c93629;
+    margin-bottom: 15px;
+    height: 37px;
+}
+
+.thumbnail h5 {
+    font-size: 1.2em;
+    color: #d8d8d8;
+    font-style: italic;
+    font-weight: 400;
+    margin: 7px;
+    height: 35px;
+}
+
+.carousel-inner h3 {
+    color: black;
+}
+
+.carousel-inner p {
+    color: black;
 }

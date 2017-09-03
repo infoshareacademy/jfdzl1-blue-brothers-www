@@ -176,3 +176,22 @@ img {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+
+<div class=" menu col-xs-2 col-md-2 col-lg-2">
+
+<div class="icon-glass"></div>
+<div class="icon-beer"></div>
+<div class="icon-fast-food"></div>
+<div class="icon-restaurant"></div>
+                  <div class="icon-monument"></div>
+              </div>
+
+.thumbnail h5 {
+    font-size: 1.2em;
+    color: #d8d8d8;
+    font-style: italic;
+    font-weight: 400;
+    margin: 7px;
+    height: 35px;
+}

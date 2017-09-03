@@ -1,6 +1,12 @@
 
+.icon-glass:before { content: '\e800'; } /* '' */
+.icon-beer:before { content: '\e801'; } /* '' */
+.icon-fast-food:before { content: '\e815'; } /* '' */
+.icon-monument:before { content: '\e827'; } /* '' */
+.icon-restaurant:before { content: '\e832'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-building:before { content: '\f0f7'; } /* '' */
 .icon-youtube:before { content: '\f167'; } /* '' */
 .icon-instagram-1:before { content: '\f16d'; } /* '' */
 .icon-gplus:before { content: '\f30f'; } /* '' */
