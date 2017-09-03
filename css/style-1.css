@@ -29,7 +29,6 @@ section {
     padding: 100px 0; }
 
 .menu{
-    background-color: #f8f9fa;
     height:690px;
     display: flex;
     align-items: center;
@@ -626,3 +625,5 @@ fieldset[disabled] .btn-xl:hover {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+.
