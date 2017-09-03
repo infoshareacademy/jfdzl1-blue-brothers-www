@@ -29,7 +29,7 @@ section {
     padding: 100px 0; }
 
 .menu{
-    background-color: red;
+    background-color: #f8f9fa;
     height:690px;
     display: flex;
     align-items: center;
