@@ -5,7 +5,7 @@
  */
 body {
     overflow-x: hidden;
-    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 p {
     line-height: 1.75; }
@@ -626,4 +626,7 @@ fieldset[disabled] .btn-xl:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.
+.section-contact {
+    color: white;
+}
+
