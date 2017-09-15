@@ -3,7 +3,7 @@ function preload() {
     game.load.image('obrazek', 'obrazek.png');
 }
 function create() {
-    game.add.image(100, 100, 'obrazek');
+    game.add.image(0, 0, 'obrazek');
 }
 function update() {}
 function render() {}
