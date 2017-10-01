@@ -634,3 +634,36 @@ fieldset[disabled] .btn-xl:hover {
     color: white;
 }
 
+/*SOCIALS*/
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    background-color:#222222;
+    padding:0;
+
+
+
+
+
+}
+
+.icon-facebook:hover {
+    background-color: #4668b3;
+}
+
+.icon-gplus:hover {
+    background-color: #DD4B3E;
+}
+
+.icon-twitter:hover {
+    background-color: #139FF2;
+}
+
+.icon-instagram-1:hover {
+    background-color: #D02E91;
+}
+
+.icon-youtube:hover {
+    background-color: #E62117;
+}
