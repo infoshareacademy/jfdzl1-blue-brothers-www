@@ -12,13 +12,10 @@
     <style type="text/css">
         /* Set a size for our map container, the Google Map will take up 100% of this container */
         #map {
-            width: 100%;
+            width: 750px;
             height: 500px;
         }
     </style>
-
-    <link href="./css/carousel.css" rel="stylesheet">
-
     <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXJKDxE0EdZ04UG_XFeGUSydXImWsfd4Q"></script>
 
@@ -107,9 +104,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/style-min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
 
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -117,7 +112,8 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
           type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="fontello/css/fontello.css">
 
 </head>
@@ -280,13 +276,9 @@
                 </div>
             </div>
 
-            </div>
+            <div id="location">
 
-
-            <div class="col-sm-10 col-md-10 col-lg-10">
-                <div id="location">
-
-
+                <div class="col-sm-10 col-md-10 col-lg-10">
                     <h1> Twoja lokalizacja </h1>
 
                     <!-- The element that will contain our Google Map. This is used in both the Javascript and CSS above. -->
@@ -295,270 +287,218 @@
             </div>
         </div>
     </div>
+
+
 </section>
 
-<div class="container">
+<!-- About -->
+<section id="about2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">O projekcie</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-12 text-right">
+
+            <img src="img/tablet.jpeg" class="img-responsive" alt="">
+
+            <div class="timeline-heading">
+                <h4 class="subheading">Aplikacja działa na każdym urządzeniu!</h4>
+            </div>
+            <div class="timeline-body">
+                <p class="text-muted">
+                    Niezależnie od tego czy będziesz uruchamiał naszą aplikacje na komputerze PC,
+                    smartfonie, tablecie czy innym urządzeniu gwarantujemy że nasza aplikacja będzie
+                    zawsze dostępna dokładnie wtedy kiedy tego potrzebujesz. </p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12 text-left">
+
+                    <div class="timeline-image">
+                        <img src="img/bar.jpg" class="img-responsive" alt="">
+                    </div>
+
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Znajdź lokal odpowiedni dla siebie</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+
+                                Skorzystaj z naszej aplikacji dzięki której odnajdziesz najlepszy lokal w Twojej
+                                okolicy niezależnie od tego gdzie się znajdujesz. Gwarantujemy że będziesz
+                                zadowolony!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Team -->
+<div id="team" class="container">
     <div class="row">
-        <div class="col-sm-12">
-
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="first-slide" src="./img/tablet.jpeg" alt="First slide">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-left">
-                                <h1>Example headline.</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Uruchom aplikację</a></p>
-                            </div>
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">O zespole</h2>
+        </div>
+        <div class="container_team">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="thumbnail">
+                        <img src="./img/about/004.svg" alt="image"
+                             class="img-responsive img-rounded foto">
+                        <div class="caption">
+                            <h3>Anita Baran</h3>
+                            <h5>Frontend developer</h5>
+                            <p>Pasjonatka dobrej książki i filmu. Koderka z zamiłowania.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="second-slide" src="./img/tablet.jpeg" alt="Second slide">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h1>Another example headline.</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Znajdź lokal idealny dla siebie</a></p>
-                            </div>
+
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="thumbnail">
+                        <img src="./img/about/001.svg" alt="image"
+                             class="img-responsive img-rounded foto">
+                        <div class="caption">
+                            <h3>Bartłomiej Wrzesiński</h3>
+                            <h5>Frontend developer</h5>
+                            <p>Niedoszły inżynier branży sanitarnej. Pasjonat kodowania.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="thumbnail">
+                        <img src="./img/about/002.svg" alt="image"
+                             class="img-responsive img-rounded foto">
+                        <div class="caption">
+                            <h3>Wojciech Paluch</h3>
+                            <h5>Frontend/backend developer</h5>
+                            <p>Znany lubelski pieśniarz. Pogromca internetowych robotów.</p>
+
+
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="third-slide" src="./img/tablet.jpeg" alt="Third slide">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-md-block text-right">
-                                <h1>One more for good measure.</h1>
-                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Dodaj recenzję</a></p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        <!-- About -->
-        <section id="about2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">O projekcie</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-lg-12">
-
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-12 text-right">
-
-                    <img src="img/tablet.jpeg" class="img-responsive" alt="">
-
-                    <div class="timeline-heading">
-                        <h4 class="subheading">Aplikacja działa na każdym urządzeniu!</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">
-                            Niezależnie od tego czy będziesz uruchamiał naszą aplikacje na komputerze PC,
-                            smartfonie, tablecie czy innym urządzeniu gwarantujemy że nasza aplikacja będzie
-                            zawsze dostępna dokładnie wtedy kiedy tego potrzebujesz. </p>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="row">
-                        <div class="col-sm-12 col-lg-12 text-left">
-
-                            <div class="timeline-image">
-                                <img src="img/bar.jpg" class="img-responsive" alt="">
-                            </div>
-
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">Znajdź lokal odpowiedni dla siebie</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-
-                                        Skorzystaj z naszej aplikacji dzięki której odnajdziesz najlepszy lokal w Twojej
-                                        okolicy niezależnie od tego gdzie się znajdujesz. Gwarantujemy że będziesz
-                                        zadowolony!</p>
-                                </div>
-                            </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="thumbnail">
+                        <img src="./img/about/003.svg" alt="image"
+                             class="img-responsive img-rounded foto">
+                        <div class="caption">
+                            <h3>Łukasz Basaj</h3>
+                            <h5>Frontend developer</h5>
+                            <p>Cyklista i maratończyk. Pasjonat kina i tabaki.</p>
 
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+    <!-- Clients -->
 
 
-        <!-- Team -->
-        <div id="team" class="container">
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">O zespole</h2>
-                </div>
-                <div class="container_team">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6 col-lg-3">
-                            <div class="thumbnail">
-                                <img src="./img/about/004.svg" alt="image"
-                                     class="img-responsive img-rounded foto">
-                                <div class="caption">
-                                    <h3>Anita Baran</h3>
-                                    <h5>Frontend developer</h5>
-                                    <p>Pasjonatka dobrej książki i filmu. Koderka z zamiłowania.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-xs-12 col-md-6 col-lg-3">
-                            <div class="thumbnail">
-                                <img src="./img/about/001.svg" alt="image"
-                                     class="img-responsive img-rounded foto">
-                                <div class="caption">
-                                    <h3>Bartłomiej Wrzesiński</h3>
-                                    <h5>Frontend developer</h5>
-                                    <p>Niedoszły inżynier branży sanitarnej. Pasjonat kodowania.</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <div class="col-xs-12 col-md-6 col-lg-3">
-                            <div class="thumbnail">
-                                <img src="./img/about/002.svg" alt="image"
-                                     class="img-responsive img-rounded foto">
-                                <div class="caption">
-                                    <h3>Wojciech Paluch</h3>
-                                    <h5>Frontend/backend developer</h5>
-                                    <p>Znany lubelski pieśniarz. Pogromca internetowych robotów.</p>
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-6 col-lg-3">
-                            <div class="thumbnail">
-                                <img src="./img/about/003.svg" alt="image"
-                                     class="img-responsive img-rounded foto">
-                                <div class="caption">
-                                    <h3>Łukasz Basaj</h3>
-                                    <h5>Frontend developer</h5>
-                                    <p>Cyklista i maratończyk. Pasjonat kina i tabaki.</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="section-heading">Formularz kontaktowy</h2>
+                    <h3 class="section-contact"> Masz ciekawe pomysły? Zgłoś do nas będziemy wdzięczni!
+                        Rozwijamy się dla Was!</h3>
                 </div>
             </div>
-            <!-- Clients -->
-
-
-            <!-- Contact -->
-            <section id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">Formularz kontaktowy</h2>
-                            <h3 class="section-contact"> Masz ciekawe pomysły? Zgłoś do nas będziemy wdzięczni!
-                                Rozwijamy się dla Was!</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <form action="https://formspree.io/anitasanok@gmail.com" method="POST">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                                   required
-                                                   data-validation-required-message="Please enter your name.">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" id="email" type="email"
-                                                   placeholder="Your Email *"
-                                                   required
-                                                   data-validation-required-message="Please enter your email address."
-                                                   name="_replyto">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                                   required
-                                                   data-validation-required-message="Please enter your phone number.">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
+            <div class="row">
+                <div class="col-lg-12">
+                    <form action="https://formspree.io/anitasanok@gmail.com" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required
+                                           data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                                           required
+                                           data-validation-required-message="Please enter your email address."
+                                           name="_replyto">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                                           required
+                                           data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
                                 <textarea class="form-control" id="message" placeholder="Your Message *" required
                                           data-validation-required-message="Please enter a message."
                                           name="name"></textarea>
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div class="col-lg-12 text-center">
-                                        <div id="success"></div>
-                                        <button id="sendMessageButton" class="btn btn-xl" type="submit">Send
-                                            Message
-                                        </button>
-                                    </div>
+                                    <p class="help-block text-danger"></p>
                                 </div>
-                            </form>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button id="sendMessageButton" class="btn btn-xl" type="submit">Send
+                                    Message
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
-            </section>
-
-            <!-- Footer -->
-            <footer class="footer_style">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-4 col-lg-4">Github.com</div>
-                        <div class="col-xs-12 col-md-4 col-lg-4">O nas</div>
-                        <div class="col-xs-12 col-md-4 col-lg-4">Forum</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-12 col-lg-12">
-                            <p>Designed and built by Blue Brothers Team 2017 r.</p>
-                            <p>stopka</p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
-
+            </div>
         </div>
-    </div>
-</div>
+    </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./js/carousel.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <footer class="footer_style">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-lg-4">Github.com</div>
+                <div class="col-xs-12 col-md-4 col-lg-4">O nas</div>
+                <div class="col-xs-12 col-md-4 col-lg-4">Forum</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <p>Designed and built by Blue Brothers Team 2017 r.</p>
+                    <p>stopka</p>
+                    <div id='lista zakupów'>
+                        <ul>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Milk</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</div>
 </body>
 
 </html>
