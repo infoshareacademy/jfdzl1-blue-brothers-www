@@ -722,7 +722,9 @@ fieldset[disabled] .btn-xl:hover {
 
 .icon-youtube:hover {
     background-color: #E62117;
+}
 
+/*COOKIE*/
 #cookie {
     position: fixed;
     display: block;
