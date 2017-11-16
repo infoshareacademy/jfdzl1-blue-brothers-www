@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Agency v4.0.0-beta (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -707,10 +702,6 @@ fieldset[disabled] .btn-xl:hover {
     justify-content: space-around;
     background-color:#222222;
     padding:0;
-
-
-
-
 }
 
 .icon-facebook:hover {
@@ -768,3 +759,7 @@ fieldset[disabled] .btn-xl:hover {
     margin: 0.5em;
 
 }
+
+
+
+
