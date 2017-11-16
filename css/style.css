@@ -28,23 +28,42 @@ h6 {
 section {
     padding: 100px 0; }
 
-.menu{
+    /*MENU WYBORU*/
+
+.panel-menu{
     background-color: #f8f9fa;
     height:690px;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
+    flex-direction: column;
     border-bottom: 1px solid #fff;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.7);
 }
+.panel-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 
-.map{
-    background-color: #0067ff;
-    height:690px;
 }
+.icon-beer, .icon-fast-food, .icon-glass, .icon-beer, .icon-monument{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ .icon-name{
+     text-transform: uppercase;
+     font-size: 20px;
+     color:#08304B;
+     margin:0px;
+ }
+
+    /*MENU WYBORU - KONIEC*/
+
+
 section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -232,7 +251,49 @@ header.masthead .intro-text .intro-heading {
 #portfolio * {
     z-index: 2; }
 
-@media (min-width: 767px) {
+/* RESPONSYWNOŚĆ NA MNIEJSZYCH EKRANACH*/
+
+@media (max-width: 767px) {
+
+    .panel-menu{
+        background-color: #f8f9fa;
+        max-height:150px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .panel-group{
+
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: row;
+
+    }
+    .icon-beer, .icon-fast-food, .icon-glass, .icon-beer, .icon-restaurant{
+        padding: 10px 10px;
+
+
+    }
+    .icon-name{
+        text-transform: uppercase;
+        font-size: 15px;
+        color:#08304B;
+        margin:0px;
+    }
+
+    .icon-name:hover{
+
+    }
+
+
     #portfolio .portfolio-item {
         margin: 0 0 30px; } }
 
@@ -452,6 +513,10 @@ header.masthead .intro-text .intro-heading {
 .team-member p {
     margin-top: 0; }
 
+
+/* RESPONSYWNOŚĆ NA MNIEJSZYCH EKRANACH - KONIEC*/
+
+
 section#contact {
     background-color: #222222;
     background-image: url("../img/map-image.png");
@@ -634,6 +699,7 @@ fieldset[disabled] .btn-xl:hover {
     color: white;
 }
 
+
 /*SOCIALS*/
 
 .social {
@@ -641,7 +707,6 @@ fieldset[disabled] .btn-xl:hover {
     justify-content: space-around;
     background-color:#222222;
     padding:0;
-
 
 
 
@@ -666,4 +731,40 @@ fieldset[disabled] .btn-xl:hover {
 
 .icon-youtube:hover {
     background-color: #E62117;
+
+#cookie {
+    position: fixed;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#cookie input {
+    display: none;
+}
+
+#cookie input:not(:checked) ~ span::before {
+    font-size: 90%;
+    content: "Strona wykorzystuje pliki cookies. W ramach naszej witryny stosujemy pliki cookies w celu świadczenia Państwu usług na najwyższym poziomie, w tym w sposób dostosowany do indywidualnych potrzeb. Korzystanie z witryny bez zmiany ustawień dotyczących cookies oznacza, że będą one zamieszczane w Państwa urządzeniu końcowym. Możecie Państwo dokonać w każdym czasie zmiany ustawień dotyczących cookies.";
+    display: inline;
+}
+
+#cookie input:checked ~ * {
+    display: none;
+    pointer-events: none;
+}
+
+#cookie {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+#cookie > * {
+    margin: 0.5em;
+
 }

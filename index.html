@@ -172,8 +172,8 @@
     <div class="container">
 
         <div class="row">
-            <div class="panel-menu">
-                <div class="col-sm-2 col-md-2 col-lg-2">
+
+                <div class="panel-menu col-sm-12 col-md-3 col-lg-3">
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingOne">
@@ -181,18 +181,15 @@
                                     <a role="button" data-toggle="collapse" data-parent="#accordion"
                                        href="#collapseOne"
                                        aria-expanded="true" aria-controls="collapseOne">
-                                        <div class="icon-glass"></div>
+                                        <div class="icon-glass"> <p class="icon-name">dyskoteki</p> </div>
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
                                  aria-labelledby="headingOne">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
-                                    truck
-                                    quinoa nesciunt laborum eiusmod.
+                                    Lorem ipsum
+
                                 </div>
                             </div>
                         </div>
@@ -202,18 +199,15 @@
                                     <a class="collapsed" role="button" data-toggle="collapse"
                                        data-parent="#accordion"
                                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <div class="icon-beer"></div>
+                                        <div class="icon-beer"> <p class="icon-name">Bary</p> </div>
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                                  aria-labelledby="headingTwo">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
-                                    truck
-                                    quinoa nesciunt laborum eiusmod.
+                                    Lorem ipsum
+
                                 </div>
                             </div>
                         </div>
@@ -223,18 +217,15 @@
                                     <a class="collapsed" role="button" data-toggle="collapse"
                                        data-parent="#accordion"
                                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        <div class="icon-fast-food"></div>
+                                        <div class="icon-fast-food">  <p class="icon-name">Fast-foody</p></div>
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
                                  aria-labelledby="headingThree">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
-                                    truck
-                                    quinoa nesciunt laborum eiusmod.
+                                    Lorem ipsum
+
                                 </div>
                             </div>
                         </div>
@@ -244,51 +235,32 @@
                                     <a class="collapsed" role="button" data-toggle="collapse"
                                        data-parent="#accordion"
                                        href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        <div class="icon-restaurant"></div>
+                                        <div class="icon-restaurant">  <p class="icon-name">Restauracje</p></div>
                                     </a>
                                 </h4>
                             </div>
                             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
                                  aria-labelledby="headingFour">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid.
+                                    Lorem ipsum
+
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFive">
-                                <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                       data-parent="#accordion"
-                                       href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        <div class="icon-monument"></div>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
-                                 aria-labelledby="headingFive">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad
-                                    squid.
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
-            </div>
 
-            <div class="col-sm-10 col-md-10 col-lg-10">
-                <div id="location">
+
+            <div class="col-sm-12 col-md-9 col-lg-9">
+
 
 
                     <h1> Twoja lokalizacja </h1>
 
                     <!-- The element that will contain our Google Map. This is used in both the Javascript and CSS above. -->
                     <div id="map"></div>
-                </div>
+
             </div>
         </div>
     </div>
@@ -571,9 +543,14 @@
 
            
 
-
         </div>
     </div>
+        <--Cookie-->
+        <div id="cookie">
+            <input type="checkbox" id="accept" />
+            <span></span>
+            <div class="btn btn-success"><label for="accept">Akceptuję</label></div>
+        </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -584,3 +561,7 @@
 </body>
 
 </html>
+
+
+
+
