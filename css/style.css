@@ -501,16 +501,31 @@ header.masthead .intro-text .intro-heading {
         padding: 0 100px 20px 20px; } }
 
 .team-member {
-    margin-bottom: 50px;
-    text-align: center; }
+    border-radius: 15px;
+    box-shadow: 0 2px 11px 0 rgba(209, 209, 209, 0.5);
+    text-align: center;
+    margin: 15px 0;
+    padding: 15px;
+    z-index: 0;}
+
 .team-member img {
-    width: 225px;
-    height: 225px;
-    border: 7px solid white; }
-.team-member h4 {
+    margin: 0 auto;
+    width: 50%;
+    border: #ffffff 5px solid;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+
+
+.team-member h3 {
     margin-top: 25px;
     margin-bottom: 0;
-    text-transform: none; }
+    text-transform: uppercase; }
+
+.team-member h5 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: uppercase; }
+
 .team-member p {
     margin-top: 0; }
 
@@ -688,13 +703,9 @@ fieldset[disabled] .btn-xl:hover {
     #img-responsive {
         width: 100%;
         height: auto;
-        float:left !important;
-    }
-    #timeline-body {
-        float:right !important;
 
     }
-}
+
 
 #mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top {
     border-bottom: 1px solid #fff;
