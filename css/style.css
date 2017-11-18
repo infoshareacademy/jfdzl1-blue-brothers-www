@@ -559,13 +559,14 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center; }
+
 footer span.copyright {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
-footer ul.quicklinks {
+footer ul.quicklink {
     font-size: 90%;
     line-height: 40px;
     margin-bottom: 0;
