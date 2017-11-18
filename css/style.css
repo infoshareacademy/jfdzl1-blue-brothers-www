@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -679,9 +685,14 @@ fieldset[disabled] .btn-xl:hover {
     background-color: white; }
 
 @media (max-width: 767px) {
-    .img-responsive {
+    #img-responsive {
         width: 100%;
         height: auto;
+        float:left !important;
+    }
+    #timeline-body {
+        float:right !important;
+
     }
 }
 
