@@ -265,8 +265,8 @@ header.masthead .intro-text .intro-heading {
         justify-content: center;
         text-align: center;
         border-bottom: 1px solid #fff;
-        background-color: rgb(0, 0, 0);
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: white;
+
     }
 
     .panel-group{
