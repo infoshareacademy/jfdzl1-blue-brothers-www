@@ -564,7 +564,8 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center; }
+    text-align: center;}
+
 
 footer span.copyright {
     font-size: 90%;
@@ -579,6 +580,7 @@ footer ul.quicklink {
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
+
 
 ul.social-buttons {
     margin-bottom: 0; }
