@@ -53,6 +53,55 @@ section h3.section-subheading {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 /*TEAM SECTION KONIEC*/
+
+/* FORMULARZ  na pewno??*/
+
+section#contact {
+    background-color: #222222;
+    background-image: url("../img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+section#contact .section-heading {
+    color: white; }
+section#contact .form-group {
+    margin-bottom: 25px; }
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px; }
+section#contact .form-group input.form-control {
+    height: auto; }
+section#contact .form-group textarea.form-control {
+    height: 236px; }
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none; }
+section#contact ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #eeeeee;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+section#contact :-moz-placeholder {
+    font-weight: 700;
+    color: #eeeeee;
+    /* Firefox 18- */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+section#contact ::-moz-placeholder {
+    font-weight: 700;
+    color: #eeeeee;
+    /* Firefox 19+ */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+section#contact :-ms-input-placeholder {
+    font-weight: 700;
+    color: #eeeeee;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+section#contact .text-danger {
+    color: #e74c3c; }
+
+/*FORMULARZ KONIEC*/
+
 /*SOCIALS*/
 
 .social {
@@ -83,6 +132,29 @@ section h3.section-subheading {
 }
 
 /*SOCIALS KONIEC*/
+
+/*FOOTER*/
+
+footer {
+    padding: 25px 0;
+    text-align: center;}
+
+
+footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+footer ul.quicklink {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+
+/*FOOTER KONIEC*/
 
 /*COOKIES*/
 #cookie {
