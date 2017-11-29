@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-moz-selection {
+    background: #fed136;
+    text-shadow: none; }
+
+::selection {
+    background: #fed136;
+    text-shadow: none; }
+
+img::selection {
+    background: transparent; }
+
+img::-moz-selection {
+    background: transparent; }
+
+body {
+    -webkit-tap-highlight-color: #fed136; }
+
+
+/* NAVBAR?? */
+#mainNav {
+    background-color: #222222; }
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #fed136;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+#mainNav .navbar-brand {
+    color: white;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fec503; }
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136; }
+
+
+
+.btn-xl .badge {
+    color: #fed136;
+    background-color: white; }
+
+
+
+#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top {
+    border-bottom: 1px solid #fff;
+    background-color: rgb(0, 0, 0 );
+
+}
+
+.section-contact {
+    color: white;
+}
+/* NAVBAR KONIRC?? */
+/* PORTFOLIO */
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none; }
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px; }
+#portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer; }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: rgba(254, 209, 54, 0.9); }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1; }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white; }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px; }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0; }
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: white; }
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none; }
+#portfolio .portfolio-item .portfolio-caption p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+#portfolio * {
+    z-index: 2; }
+
+
+/*PORTFOLIO KONIEC*/
+
+/*PORTFOLIO */
+
+.portfolio-modal .modal-dialog {
+    max-width: none;
+    height: 100%;
+    margin: 0; }
+
+.portfolio-modal .modal-content {
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+.portfolio-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px; }
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px; }
+.portfolio-modal .modal-content p.item-intro {
+    font-size: 16px;
+    font-style: italic;
+    margin: 20px 0 30px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px; }
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px; }
+.portfolio-modal .modal-content button {
+    cursor: pointer; }
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent; }
+.portfolio-modal .close-modal:hover {
+    opacity: 0.3; }
+.portfolio-modal .close-modal .lr {
+    /* Safari and Chrome */
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #222222; }
+.portfolio-modal .close-modal .lr .rl {
+    /* Safari and Chrome */
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-color: #222222; }
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0; }
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none; }
+.timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: '';
+    background-color: #f1f1f1; }
+.timeline > li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px; }
+.timeline > li:after, .timeline > li:before {
+    display: table;
+    content: ' '; }
+.timeline > li:after {
+    clear: both; }
+.timeline > li .timeline-panel {
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left; }
+.timeline > li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0; }
+.timeline > li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0; }
+.timeline > li .timeline-image {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    background-color: #fed136; }
+.timeline > li .timeline-image h4 {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 12px; }
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left; }
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0; }
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0; }
+.timeline > li:last-child {
+    margin-bottom: 0; }
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit; }
+.timeline .timeline-heading h4.subheading {
+    text-transform: none; }
+.timeline .timeline-body > ul,
+.timeline .timeline-body > p {
+    margin-bottom: 0; }
+
+/*PORTFOLIO KONIEC*/
+
+/* SOCIALS???*/
+ul.social-buttons {
+    margin-bottom: 0; }
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #222222; }
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #fed136; }
+
+
+.text-primary {
+    color: #fed136 !important; }
+
+.btn-primary {
+    font-weight: 700;
+    color: white;
+    border-color: #fed136;
+    background-color: #fed136;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+.btn-primary.focus, .btn-primary:focus {
+    color: white;
+    border-color: #b48b01;
+    background-color: #fec503; }
+.btn-primary:hover {
+    color: white;
+    border-color: #f6bf01;
+    background-color: #fec503; }
+.btn-primary.active, .btn-primary:active,
+.open > .btn-primary.dropdown-toggle {
+    color: white;
+    border-color: #f6bf01;
+    background-color: #fec503; }
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
+.open > .btn-primary.dropdown-toggle.focus,
+.open > .btn-primary.dropdown-toggle:focus,
+.open > .btn-primary.dropdown-toggle:hover {
+    color: white;
+    border-color: #b48b01;
+    background-color: #dcab01; }
+.btn-primary.active, .btn-primary:active,
+.open > .btn-primary.dropdown-toggle {
+    background-image: none; }
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,
+
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+    border-color: #fed136;
+    background-color: #fed136; }
+
+.btn-primary .badge {
+    color: #fed136;
+    background-color: white; }
+
+.btn-xl {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color: white;
+    border-color: #fed136;
+    background-color: #fed136;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+
+.btn-xl.focus, .btn-xl:focus {
+    color: white;
+    border-color: #b48b01;
+    background-color: #fec503; }
+
+.btn-xl:hover {
+    color: white;
+    border-color: #f6bf01;
+    background-color: #fec503; }
+
+.btn-xl.active, .btn-xl:active,
+.open > .btn-xl.dropdown-toggle {
+    color: white;
+    border-color: #f6bf01;
+    background-color: #fec503; }
+
+.btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
+.open > .btn-xl.dropdown-toggle.focus,
+.open > .btn-xl.dropdown-toggle:focus,
+.open > .btn-xl.dropdown-toggle:hover {
+    color: white;
+    border-color: #b48b01;
+    background-color: #dcab01; }
+
+.btn-xl.active, .btn-xl:active,
+.open > .btn-xl.dropdown-toggle {
+    background-image: none; }
+
+.btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl.focus,
+fieldset[disabled] .btn-xl:focus,
+fieldset[disabled] .btn-xl:hover {
+    border-color: #fed136;
+    background-color: #fed136; }
