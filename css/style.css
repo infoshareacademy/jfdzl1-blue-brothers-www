@@ -260,6 +260,7 @@ footer {
 }
 #footer_link {
     text-decoration: none;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: white;
 }
 #footer_bottom {
@@ -268,6 +269,7 @@ footer {
     margin-top: 30px;
     color: #fed136;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+    font-size:20px;
 }
 
 /*FOOTER KONIEC*/
