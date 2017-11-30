@@ -253,23 +253,24 @@ section#contact .text-danger {
 /*FOOTER*/
 
 footer {
+    background-color:#222222;
+    margin-top: 30px;
     padding: 25px 0;
-    text-align: center;}
-
-
-footer span.copyright {
-    font-size: 90%;
-    line-height: 40px;
-    text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
-footer ul.quicklink {
-    font-size: 90%;
-    line-height: 40px;
-    margin-bottom: 0;
-    text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    text-align: center;
+}
+#footer_link {
+    text-decoration: none;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+}
+#footer_bottom {
+    height:50px;
+    text-align: center;
+    margin-top: 30px;
+    color: #fed136;
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+    font-size:20px;
+}
 
 /*FOOTER KONIEC*/
 
