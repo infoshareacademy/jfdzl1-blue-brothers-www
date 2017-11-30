@@ -226,26 +226,32 @@ section#contact .text-danger {
     justify-content: space-around;
     background-color:#222222;
     padding:0;
+
 }
 
 .icon-facebook:hover {
     background-color: #4668b3;
+    border-radius: 10%;
 }
 
 .icon-gplus:hover {
     background-color: #DD4B3E;
+    border-radius: 10%;
 }
 
 .icon-twitter:hover {
     background-color: #139FF2;
+    border-radius: 10%;
 }
 
 .icon-instagram-1:hover {
     background-color: #D02E91;
+    border-radius: 10%;
 }
 
 .icon-youtube:hover {
     background-color: #E62117;
+    border-radius: 10%;
 }
 
 /*SOCIALS KONIEC*/
@@ -274,10 +280,7 @@ footer {
 
 /*FOOTER KONIEC*/
 
-/*COOKIES*/
 
-
-/*COOKIES KONIEC*/
 
 
 

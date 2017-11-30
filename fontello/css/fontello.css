@@ -74,5 +74,17 @@
     .icon-monument:before { content: '\e827'; color: #08304B; font-size: 30px;} /* '' */
     .icon-restaurant:before { content: '\e832'; color:#08304B; font-size: 30px;} /* '' */
     .icon-building:before { content: '\f0f7'; color: #08304B; font-size: 30px;} /* '' */
+    .icon-twitter:before { content: '\f099'; color: white; font-size: 30px;} /* '' */
+    .icon-facebook:before { content: '\f09a'; color: white; font-size: 30px;; } /* '' */
+    .icon-youtube:before { content: '\f167'; color: white; font-size: 30px; } /* '' */
+    .icon-instagram-1:before { content: '\f16d'; color: white; font-size: 30px;} /* '' */
+    .icon-gplus:before { content: '\f30f'; color: white; font-size: 30px;} /* '' */
+}
 
+@media  (min-width: 1200px) {
+    .icon-twitter:before { content: '\f099'; color: white; font-size: 50px;} /* '' */
+    .icon-facebook:before { content: '\f09a'; color: white; font-size: 50px;; } /* '' */
+    .icon-youtube:before { content: '\f167'; color: white; font-size: 50px; } /* '' */
+    .icon-instagram-1:before { content: '\f16d'; color: white; font-size: 50px;} /* '' */
+    .icon-gplus:before { content: '\f30f'; color: white; font-size: 50px;} /* '' */
 }
