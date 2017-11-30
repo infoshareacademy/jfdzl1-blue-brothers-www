@@ -24,7 +24,10 @@
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <!-- lINKI API DO MAPY GOOGLA -->
+    <!-- Stylowanie Cookie alert -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
+    <!-- Linki API mapy Google -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
@@ -54,10 +57,10 @@
                     <a class="nav-link js-scroll-trigger" href="#services">Jak działa aplikacja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">O projekcie</a>
+                    <a class="nav-link js-scroll-trigger" href="#about">Projekt</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#team">O zespole</a>
+                    <a class="nav-link js-scroll-trigger" href="#team">Zespół</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
@@ -258,7 +261,7 @@
                         </div>
 
                     </div>
-
+                </div>
             </section>
 
             <section id="about">
@@ -460,114 +463,133 @@
                 </footer>
 
                 <!--Cookie-->
+                <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+                <script>
+                    window.addEventListener("load", function(){
+                        window.cookieconsent.initialise({
+                            "palette": {
+                                "popup": {
+                                    "background": "#000"
+                                },
+                                "button": {
+                                    "background": "#f1d600"
+                                }
+                            },
+                            "showLink": false,
+                            "content": {
+                                "message": "Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.",
+                                "dismiss": "Akceptuję",
+                                "deny": "Rezygnuję"
+                            }
+                        })});
+                </script>
 
-                <div id="cookie">
-                    <input type="checkbox" id="accept"/>
-                    <span></span>
-                    <div class="btn btn-success"><label for="accept">Akceptuję</label></div>
-                </div>
+
+
+
+                <!--JAVA SCRIPT-->
+                <script src="./js/carousel.js"></script>
+
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                        crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+                        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+                        crossorigin="anonymous"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+                        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+                        crossorigin="anonymous"></script>
+                <script type="text/javascript"
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXJKDxE0EdZ04UG_XFeGUSydXImWsfd4Q"></script>
+
+
+                <!--MAPA GOOGLE-->
+                <script type="text/javascript">
+                    // When the window has finished loading create our google map below
+                    google.maps.event.addDomListener(window, 'load', init);
+
+                    function init() {
+                        // Basic options for a simple Google Map
+                        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                        var mapOptions = {
+                            // How zoomed in you want the map to start at (always required)
+                            zoom: 11,
+
+                            // The latitude and longitude to center the map (always required)
+                            center: new google.maps.LatLng(51.240238, 22.556820), // Lublin
+
+                            // How you would like to style the map.
+                            // This is where you would paste any style found on Snazzy Maps.
+                            styles: [{
+                                "featureType": "all",
+                                "elementType": "labels.text.fill",
+                                "stylers": [{"color": "#ffffff"}]
+                            }, {
+                                "featureType": "all",
+                                "elementType": "labels.text.stroke",
+                                "stylers": [{"color": "#000000"}, {"lightness": 13}]
+                            }, {
+                                "featureType": "administrative",
+                                "elementType": "geometry.fill",
+                                "stylers": [{"color": "#000000"}]
+                            }, {
+                                "featureType": "administrative",
+                                "elementType": "geometry.stroke",
+                                "stylers": [{"color": "#144b53"}, {"lightness": 14}, {"weight": 1.4}]
+                            }, {
+                                "featureType": "landscape",
+                                "elementType": "all",
+                                "stylers": [{"color": "#08304b"}]
+                            }, {
+                                "featureType": "poi",
+                                "elementType": "geometry",
+                                "stylers": [{"color": "#0c4152"}, {"lightness": 5}]
+                            }, {
+                                "featureType": "road.highway",
+                                "elementType": "geometry.fill",
+                                "stylers": [{"color": "#000000"}]
+                            }, {
+                                "featureType": "road.highway",
+                                "elementType": "geometry.stroke",
+                                "stylers": [{"color": "#0b434f"}, {"lightness": 25}]
+                            }, {
+                                "featureType": "road.arterial",
+                                "elementType": "geometry.fill",
+                                "stylers": [{"color": "#000000"}]
+                            }, {
+                                "featureType": "road.arterial",
+                                "elementType": "geometry.stroke",
+                                "stylers": [{"color": "#0b3d51"}, {"lightness": 16}]
+                            }, {
+                                "featureType": "road.local",
+                                "elementType": "geometry",
+                                "stylers": [{"color": "#000000"}]
+                            }, {
+                                "featureType": "transit",
+                                "elementType": "all",
+                                "stylers": [{"color": "#146474"}]
+                            }, {"featureType": "water", "elementType": "all", "stylers": [{"color": "#021019"}]}]
+                        };
+
+                        // Get the HTML DOM element that will contain your map
+                        // We are using a div with id="map" seen below in the <body>
+                        var mapElement = document.getElementById('map');
+
+                        // Create the Google Map using our element and options defined above
+                        var map = new google.maps.Map(mapElement, mapOptions);
+
+                        // Let's also add a marker while we're at it
+                        var marker = new google.maps.Marker({
+                            position: new google.maps.LatLng(40.6700, -73.9400),
+                            map: map,
+                            title: 'Snazzy!'
+                        });
+                    }
+                </script>
             </div>
-
-
-            <!--JAVA SCRIPT-->
-            <script src="./js/carousel.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-                    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-                    crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-                    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-                    crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-                    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-                    crossorigin="anonymous"></script>
-            <script type="text/javascript"
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXJKDxE0EdZ04UG_XFeGUSydXImWsfd4Q"></script>
-
-
-            <!--MAPA GOOGLE-->
-            <script type="text/javascript">
-                // When the window has finished loading create our google map below
-                google.maps.event.addDomListener(window, 'load', init);
-
-                function init() {
-                    // Basic options for a simple Google Map
-                    // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                    var mapOptions = {
-                        // How zoomed in you want the map to start at (always required)
-                        zoom: 11,
-
-                        // The latitude and longitude to center the map (always required)
-                        center: new google.maps.LatLng(51.240238, 22.556820), // Lublin
-
-                        // How you would like to style the map.
-                        // This is where you would paste any style found on Snazzy Maps.
-                        styles: [{
-                            "featureType": "all",
-                            "elementType": "labels.text.fill",
-                            "stylers": [{"color": "#ffffff"}]
-                        }, {
-                            "featureType": "all",
-                            "elementType": "labels.text.stroke",
-                            "stylers": [{"color": "#000000"}, {"lightness": 13}]
-                        }, {
-                            "featureType": "administrative",
-                            "elementType": "geometry.fill",
-                            "stylers": [{"color": "#000000"}]
-                        }, {
-                            "featureType": "administrative",
-                            "elementType": "geometry.stroke",
-                            "stylers": [{"color": "#144b53"}, {"lightness": 14}, {"weight": 1.4}]
-                        }, {
-                            "featureType": "landscape",
-                            "elementType": "all",
-                            "stylers": [{"color": "#08304b"}]
-                        }, {
-                            "featureType": "poi",
-                            "elementType": "geometry",
-                            "stylers": [{"color": "#0c4152"}, {"lightness": 5}]
-                        }, {
-                            "featureType": "road.highway",
-                            "elementType": "geometry.fill",
-                            "stylers": [{"color": "#000000"}]
-                        }, {
-                            "featureType": "road.highway",
-                            "elementType": "geometry.stroke",
-                            "stylers": [{"color": "#0b434f"}, {"lightness": 25}]
-                        }, {
-                            "featureType": "road.arterial",
-                            "elementType": "geometry.fill",
-                            "stylers": [{"color": "#000000"}]
-                        }, {
-                            "featureType": "road.arterial",
-                            "elementType": "geometry.stroke",
-                            "stylers": [{"color": "#0b3d51"}, {"lightness": 16}]
-                        }, {
-                            "featureType": "road.local",
-                            "elementType": "geometry",
-                            "stylers": [{"color": "#000000"}]
-                        }, {
-                            "featureType": "transit",
-                            "elementType": "all",
-                            "stylers": [{"color": "#146474"}]
-                        }, {"featureType": "water", "elementType": "all", "stylers": [{"color": "#021019"}]}]
-                    };
-
-                    // Get the HTML DOM element that will contain your map
-                    // We are using a div with id="map" seen below in the <body>
-                    var mapElement = document.getElementById('map');
-
-                    // Create the Google Map using our element and options defined above
-                    var map = new google.maps.Map(mapElement, mapOptions);
-
-                    // Let's also add a marker while we're at it
-                    var marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(40.6700, -73.9400),
-                        map: map,
-                        title: 'Snazzy!'
-                    });
-                }
-            </script>
+        </div>
+    </div>
+</div>
 
 </body>
 
