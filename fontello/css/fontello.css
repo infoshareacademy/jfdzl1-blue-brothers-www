@@ -55,12 +55,12 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-glass:before { content: '\e800'; color: #08304B; font-size: 40px;} /* '' */
-.icon-beer:before { content: '\e801'; color: #08304B; font-size: 40px;} /* '' */
-.icon-fast-food:before { content: '\e815'; color: #08304B; font-size: 40px;} /* '' */
-.icon-monument:before { content: '\e827'; color: #08304B; font-size: 40px;} /* '' */
-.icon-restaurant:before { content: '\e832'; color:#08304B; font-size: 40px;} /* '' */
-.icon-building:before { content: '\f0f7'; color: #08304B; font-size: 40px;} /* '' */
+.icon-glass:before { content: '\e800'; color: #FED136; font-size: 40px;} /* '' */
+.icon-beer:before { content: '\e801'; color: #FED136; font-size: 40px;} /* '' */
+.icon-fast-food:before { content: '\e815'; color: #FED136; font-size: 40px;} /* '' */
+.icon-monument:before { content: '\e827'; color: #FED136; font-size: 40px;} /* '' */
+.icon-restaurant:before { content: '\e832'; color:#FED136; font-size: 40px;} /* '' */
+.icon-building:before { content: '\f0f7'; color: #FED136; font-size: 40px;} /* '' */
 .icon-twitter:before { content: '\f099'; color: white; font-size: 40px;} /* '' */
 .icon-facebook:before { content: '\f09a'; color: white; font-size: 40px;; } /* '' */
 .icon-youtube:before { content: '\f167'; color: white; font-size: 40px; } /* '' */
@@ -68,17 +68,17 @@
 .icon-gplus:before { content: '\f30f'; color: white; font-size: 40px;} /* '' */
 
 @media (max-width: 767px){
-    .icon-glass:before { content: '\e800'; color: #08304B; font-size: 30px;} /* '' */
-    .icon-beer:before { content: '\e801'; color: #08304B; font-size: 30px;} /* '' */
-    .icon-fast-food:before { content: '\e815'; color: #08304B; font-size: 30px;} /* '' */
-    .icon-monument:before { content: '\e827'; color: #08304B; font-size: 30px;} /* '' */
-    .icon-restaurant:before { content: '\e832'; color:#08304B; font-size: 30px;} /* '' */
-    .icon-building:before { content: '\f0f7'; color: #08304B; font-size: 30px;} /* '' */
-    .icon-twitter:before { content: '\f099'; color: white; font-size: 30px;} /* '' */
-    .icon-facebook:before { content: '\f09a'; color: white; font-size: 30px;; } /* '' */
-    .icon-youtube:before { content: '\f167'; color: white; font-size: 30px; } /* '' */
-    .icon-instagram-1:before { content: '\f16d'; color: white; font-size: 30px;} /* '' */
-    .icon-gplus:before { content: '\f30f'; color: white; font-size: 30px;} /* '' */
+    .icon-glass:before { content: '\e800'; color: #FED136; font-size: 25px;} /* '' */
+    .icon-beer:before { content: '\e801'; color: #FED136; font-size: 25px;} /* '' */
+    .icon-fast-food:before { content: '\e815'; color: #FED136; font-size: 25px;} /* '' */
+    .icon-monument:before { content: '\e827'; color:#FED136; font-size: 25px;} /* '' */
+    .icon-restaurant:before { content: '\e832'; color:#FED136; font-size: 25px;} /* '' */
+    .icon-building:before { content: '\f0f7'; color: #FED136; font-size: 25px;} /* '' */
+    .icon-twitter:before { content: '\f099'; color: white; font-size: 25px;} /* '' */
+    .icon-facebook:before { content: '\f09a'; color: white; font-size: 25px;; } /* '' */
+    .icon-youtube:before { content: '\f167'; color: white; font-size: 25px; } /* '' */
+    .icon-instagram-1:before { content: '\f16d'; color: white; font-size: 25px;} /* '' */
+    .icon-gplus:before { content: '\f30f'; color: white; font-size: 25px;} /* '' */
 }
 
 @media  (min-width: 1200px) {
