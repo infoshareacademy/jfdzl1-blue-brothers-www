@@ -169,6 +169,45 @@ section h3.section-subheading {
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+.team-member {
+    border-radius: 15px;
+    box-shadow: 0 2px 11px 0 rgba(209, 209, 209, 0.5);
+    text-align: center;
+    margin: 15px 0;
+    padding: 15px;
+    z-index: 0;
+}
+
+
+team h3 {
+
+}
+
+team h5 {
+
+}
+
+team photo {
+    margin: 0 auto;
+    width: 50%;
+    border: #ffffff 5px solid;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+team social-fb {
+
+}
+
+team social-github {
+
+}
+
+team social-linkdin {
+
+}
+
+
 /*TEAM SECTION KONIEC*/
 
 /* FORMULARZ  na pewno??*/
