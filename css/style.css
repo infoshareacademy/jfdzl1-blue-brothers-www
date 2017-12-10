@@ -123,13 +123,16 @@ header.masthead .intro-text .intro-heading {
 
 
 /*MENU WYBORU*/
+#services{
+
+}
 
 .panel-menu{
     background-color: #f8f9fa;
     height:690px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     flex-direction: column;
     border-bottom: 1px solid #fff;
@@ -137,15 +140,17 @@ header.masthead .intro-text .intro-heading {
 
 }
 
-
-.icon-beer, .icon-fast-food, .icon-glass, .icon-beer, .icon-monument{
+.icon-beer, .icon-fast-food, .icon-glass, .icon-restaurant{
     padding-top: 10px;
     padding-bottom: 10px;
+    min-width: 200px;
+    margin-top: 10px;
 }
+
 .icon-name{
     text-transform: uppercase;
     font-size: 20px;
-    color:#08304B;
+    color:#FED136;
     margin:0px;
 }
 
@@ -265,26 +270,32 @@ section#contact .text-danger {
     justify-content: space-around;
     background-color:#222222;
     padding:0;
+
 }
 
 .icon-facebook:hover {
     background-color: #4668b3;
+    border-radius: 10%;
 }
 
 .icon-gplus:hover {
     background-color: #DD4B3E;
+    border-radius: 10%;
 }
 
 .icon-twitter:hover {
     background-color: #139FF2;
+    border-radius: 10%;
 }
 
 .icon-instagram-1:hover {
     background-color: #D02E91;
+    border-radius: 10%;
 }
 
 .icon-youtube:hover {
     background-color: #E62117;
+    border-radius: 10%;
 }
 
 /*SOCIALS KONIEC*/
@@ -313,10 +324,7 @@ footer {
 
 /*FOOTER KONIEC*/
 
-/*COOKIES*/
 
-
-/*COOKIES KONIEC*/
 
 
 
